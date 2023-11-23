@@ -1525,3 +1525,1224 @@
 #hamburger{
   cursor: pointer;
 }
+
+
+
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+.main {
+  background-color: #f5f5f5;
+}
+
+#body {
+  color: #434a54;
+  width: 80%;
+  padding-top: 100px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cover-div {
+  /* background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTAwIDEwMCc+PGcgZmlsbC1ydWxlPSdldmVub2RkJz48ZyBmaWxsPScjZmZmZmZmJyBmaWxsLW9wYWNpdHk9JzAuMTInPjxwYXRoIG9wYWNpdHk9Jy41JyBkPSdNOTYgOTVoNHYxaC00djRoLTF2LTRoLTl2NGgtMXYtNGgtOXY0aC0xdi00aC05djRoLTF2LTRoLTl2NGgtMXYtNGgtOXY0aC0xdi00aC05djRoLTF2LTRoLTl2NGgtMXYtNGgtOXY0aC0xdi00SDB2LTFoMTV2LTlIMHYtMWgxNXYtOUgwdi0xaDE1di05SDB2LTFoMTV2LTlIMHYtMWgxNXYtOUgwdi0xaDE1di05SDB2LTFoMTV2LTlIMHYtMWgxNXYtOUgwdi0xaDE1VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OXptLTEgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTktMTBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptOS0xMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTktMTBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptOS0xMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTktMTBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptOS0xMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTktMTBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXonLz48cGF0aCBkPSdNNiA1VjBINXY1SDB2MWg1djk0aDFWNmg5NFY1SDZ6Jy8+PC9nPjwvZz48L3N2Zz4=); */
+  /* background-color: #4a89dc; */
+  color: #191b1c !important;
+  border-bottom: 2px solid #740e00;
+}
+
+.shadow-lg {
+  background-color: #ffffff;
+}
+
+#bank-details-div {
+  color: black;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+#body hr {
+  margin: 25px 0;
+  height: 2px !important;
+  color: #740e00;
+  border: 0;
+  opacity: 0.25;
+}
+
+.avatar {
+  border: 2px solid rgb(143 0 0);
+  overflow: hidden;
+  max-width: 210px;
+  max-height: 216px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+@media (min-width: 48em) {
+  .avatar {
+    margin-bottom: -80px;
+    margin-left: 0;
+  }
+}
+
+#download-btn {
+  cursor: pointer;
+  padding: 30px 40px;
+  overflow: hidden;
+}
+
+#download-btn:hover,
+#download-btn:focus {
+  transform: translateY(-0.25em);
+}
+
+.input-border {
+  border: 1px solid red;
+}
+
+/* **********************************************TimeLine******************************************************** */
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-left: 2px solid #434a54;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #434a54;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* text-block around work-experience-card */
+.text-block {
+  margin-left: 25px;
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  border-left: 1px solid #b12828;
+}
+
+/* The circles on the timeline */
+.text-block::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #740e00;
+  border: 2px solid #740e00;
+  top: 20px;
+  border-radius: 80%;
+}
+
+/* Add arrows to the right text-block (pointing left) */
+.right::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #b12828;
+  width: 29px;
+  height: 2px;
+  top: 31px;
+  left: 12px;
+}
+
+/* Fix the circle for text-blocks on the right side */
+.right::after {
+  left: -13px;
+}
+
+/* The actual work-experience-card */
+.card-body {
+  padding: 32px;
+  background-color: fff;
+  position: relative;
+  border-radius: 6px;
+  border-left: 3px solid #b12828;
+  box-shadow: -1px 0px 5px -1px;
+}
+
+/* ********************************Hover effect for edit ***************************************/
+
+.personal-details-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.certification-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.personal-details-edit-box i {
+  color: #b12828 !important;
+}
+
+.certification-edit-box i {
+  color: #b12828 !important;
+}
+
+.qualification-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.qualification-edit-box i {
+  color: #b12828 !important;
+}
+
+.workexperience-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+.workexperience-edit-box i {
+  color: #b12828 !important;
+}
+
+.skills-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.skills-edit-box i {
+  color: #b12828 !important;
+}
+
+.award-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.award-edit-box i {
+  color: #b12828 !important;
+}
+
+.achievement-edit-box i {
+  color: #b12828 !important;
+}
+
+.publication-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.delete_btn_award_symbol {
+  width: 50px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+.delete_btn_research_symbol {
+  width: 50px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+#delete_btn_qualification_symbol {
+  width: 50px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+#delete_btn_workexperience_symbol {
+  width: 50px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+#delete_btn_publication_symbol {
+  width: 50px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+.publication-edit-box i {
+  color: #b12828 !important;
+}
+
+.research-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.research-edit-box i {
+  color: #b12828 !important;
+}
+
+.certification-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.certification-edit-box i {
+  color: #b12828 !important;
+}
+
+.bank-details-edit-box {
+  width: 100px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  left: 100%;
+}
+
+.bank-details-edit-box i {
+  color: #b12828 !important;
+}
+
+/*************************************************************** Skills **************************************************/
+
+.coloured-cards .card {
+  margin-top: 30px;
+}
+
+.card[data-radius="none"] {
+  border-radius: 0px;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  background-color: #ffffff;
+  color: #252422;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  margin-bottom: 30px;
+  color: #740e00;
+}
+
+.card {
+  padding: 25px 40px;
+}
+
+.card[data-color="grey"] .category {
+  color: black;
+}
+
+.card .category,
+.card .label {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.card-big-shadow:before {
+  background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  bottom: -12%;
+  content: "";
+  display: block;
+  left: -12%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.card .description {
+  font-size: 16px;
+  color: #191b1c !important;
+}
+
+/*======== COLORS ===========*/
+/* .card[data-color="grey"] {
+} */
+
+.card[data-color="grey"] .description {
+  color: white;
+}
+
+/* 
+.card[data-color="green"] {
+} */
+
+.skill-pill-div {
+  width: max-content;
+  margin: 20px 0 0 0;
+  border-radius: 50px;
+  padding: 10px;
+  border: 1px solid #b12828;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+/* ********************************Personal Details Div Styling***************************************/
+
+#main-form-area {
+  margin-top: 50px !important;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  width: 70%;
+  max-width: 100%;
+}
+
+#left-form-area {
+  color: white !important;
+  background: linear-gradient(to right, #34373a, #5a626d);
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.radio-inline {
+  padding: 0 10px;
+}
+
+input {
+  /* min-width: 150px !important; */
+  padding: 5px;
+  /* border-radius: 25px !important; */
+  background-color: #eee;
+}
+
+input:focus {
+  outline: none;
+  /* border: 3px solid red !important; */
+}
+
+label {
+  padding-bottom: 10px;
+}
+
+#name-row {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#left-third-row {
+  padding-top: 50px;
+}
+
+#left-fourth-row {
+  padding-top: 50px;
+}
+
+#gender-row {
+  padding-left: 50px;
+  font-size: 16px;
+}
+
+.temporary-address {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1030px) {
+  .temporary-address {
+    padding-top: 30px;
+  }
+
+  .country-heading {
+    padding-top: 0 !important;
+  }
+}
+
+button {
+  border-radius: 25px !important;
+}
+
+/* ********************************Styling for Skills Modal***************************************/
+
+#skill-box {
+  background-color: #fff;
+  min-height: 70vh;
+  margin-top: 60px;
+  padding: 30px;
+}
+
+.fa-magnifying-glass {
+  margin-left: 30px;
+  color: #3983fa;
+  cursor: pointer;
+}
+
+#soft-skill-review-box {
+  min-width: 50%;
+  height: 50vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#soft-skill-review-box ul {
+  padding: 10px 0 0 0 !important;
+}
+
+#soft-skill-review-box li {
+  border: 1px solid #ddd;
+  margin: 20px 20px 20px 0;
+  height: 45px;
+  width: 90%;
+}
+
+#add-custom-soft-skill,
+#add-custom-hard-skill {
+  border: 1px solid #ddd;
+  margin: 20px 20px 20px 0;
+  padding: 8px 5px 0 15px;
+  height: 55px;
+}
+
+#soft-skill-review-box li i {
+  padding: 6px 15px 6px;
+  border-right: 1px solid black;
+}
+
+#soft-skill-review-box li a {
+  padding-top: 10px;
+  margin-top: -1px;
+  /* Prevent double borders */
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#soft-skill-box {
+  width: 100%;
+  height: 50vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#hard-skill-box {
+  width: 100%;
+  height: 50vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#review-box {
+  width: 100%;
+}
+
+#hard-skill-review-box {
+  min-width: 50%;
+  height: 25vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#hard-skill-review-box ul {
+  padding: 10px 0 0 0 !important;
+}
+
+#hard-skill-review-box li {
+  border: 1px solid #ddd;
+  margin: 20px 20px 20px 0;
+  height: 45px;
+  width: 90%;
+}
+
+#hard-skill-review-box li i {
+  padding: 6px 15px 6px;
+  border-right: 1px solid black;
+}
+
+#hard-skill-review-box li a {
+  padding-top: 10px;
+  margin-top: -1px;
+  /* Prevent double borders */
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#soft-skill-search {
+  width: 90% !important;
+  margin: 5%;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+}
+
+#soft-skill-search:focus {
+  border: 2px solid #3983fa !important;
+}
+
+#hard-skill-search {
+  width: 90% !important;
+  margin: 5%;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+}
+
+#hard-skill-search:focus {
+  border: 2px solid #3983fa !important;
+}
+
+#soft-skill-UL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#soft-skill-box {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#hard-skill-box {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#soft-skill-UL li {
+  border: 1px solid #ddd;
+}
+
+#soft-skill-UL li a {
+  /* margin-top: -1px; */
+  /* Prevent double borders */
+  /* padding-left:15%; */
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#soft-skill-UL li {
+  margin: 20px;
+}
+
+#hard-skill-UL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#hard-skill-UL li {
+  border: 1px solid #ddd;
+}
+
+#hard-skill-UL li a {
+  /* margin-top: -1px; */
+  /* Prevent double borders */
+  /* padding-left:15%; */
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#hard-skill-UL li {
+  margin: 20px;
+}
+
+.soft-skill-display-row {
+  height: 50px;
+  border: 1px solid #ddd;
+  /* padding: 10px; */
+}
+
+.soft-skill-add-button i {
+  cursor: pointer;
+  color: #3983fa;
+  padding: 8px 20px 8px 15px;
+  border-right: 1px solid black;
+  height: 100%;
+}
+
+.hard-skill-add-button i {
+  cursor: pointer;
+  color: #3983fa;
+  padding: 8px 20px 8px 15px;
+  border-right: 1px solid black;
+  height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.Flipped {
+  direction: rtl;
+}
+
+.flipping {
+  direction: ltr;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3983fa;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #3983fa);
+}
+
+/* #buttons-row {
+  margin-top: 30%;
+  bottom: 0;
+} */
+
+@media screen and (max-width: 1000px) {
+  .soft-skill-add-button i {
+    padding: 7px 5px 0 4px;
+  }
+
+  #hard-skill-box li a {
+    padding-left: 20px;
+  }
+}
+
+/* ********************************Styling for bank details Modal***************************************/
+
+#bank-form-area {
+  margin-top: 100px !important;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  width: 60%;
+  max-width: 100%;
+  color: black;
+  padding-bottom: 30px;
+}
+
+#bank-form-area label {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+#bank-form-area img {
+  text-align: center;
+}
+
+#check-preview {
+  padding: 20px 0 10px 40px;
+}
+
+/* ********************************Media Query For different device widths less than 768px**************************************/
+
+@media screen and (max-width: 768px) {
+  /* main resume box */
+  #body {
+    margin: auto !important;
+  }
+
+  /*
+  ********************************************* timeline *******************************8*/
+  /* Full-width text-blocks */
+  .text-block {
+    width: 100%;
+    padding: 10px 40px;
+    margin-left: 20px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .text-block::before {
+    left: 12px;
+    border-color: transparent #434a54 transparent transparent;
+  }
+
+  /* **********************************Personal Details Form Div ************************************/
+  #name-row {
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  #left-third-row {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #left-fourth-row {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #gender-row {
+    font-size: smaller;
+    padding-top: 0 !important;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .city-line {
+    padding-top: 20px;
+  }
+}
+
+/*============================================================================================================*/
+.spacein {
+  padding: 9px;
+  margin-top: 11px;
+}
+
+/* **********************************border color************************************/
+.input-border {
+  border: 2px solid red;
+}
+
+.required {
+  color: red;
+}
+
+#delete_btn_research_symbol {
+  width: 55px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+#delete_btn_certification_symbol {
+  width: 55px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+#delete_btn_publication_symbol {
+  width: 55px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+#delete_btn_qualification_symbol {
+  width: 55px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+#delete_btn_award_symbol {
+  width: 55px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 100%;
+}
+
+.resume-qualification-addbtn {
+  border: none;
+  align-items: center;
+}
+
+.resume-workexperience-addbtn {
+  border: none;
+  align-items: center;
+}
+
+.addbtn-qualification {
+  padding: 2px;
+  margin: auto;
+  width: 70%;
+  background-color: whitesmoke;
+  box-shadow: 5px 2px 6px -1px;
+}
+
+.addbtn-workexperience {
+  padding: 2px;
+  margin: auto;
+  width: 70%;
+  background-color: whitesmoke;
+  box-shadow: 5px 2px 6px -1px;
+}
+
+.resume-award-addbtn {
+  border: none;
+  align-items: center;
+}
+
+.addbtn-award {
+  padding: 2px;
+  margin: auto;
+  width: 70%;
+  background-color: whitesmoke;
+  box-shadow: 5px 2px 6px -1px;
+}
+
+.addbtn-publication {
+  padding: 2px;
+  margin: auto;
+  width: 70%;
+  background-color: whitesmoke;
+  box-shadow: 5px 2px 6px -1px;
+}
+
+.resume-publication-addbtn {
+  border: none;
+  align-items: center;
+}
+
+.resume-research-addbtn {
+  border: none;
+  align-items: center;
+}
+
+.addbtn-research {
+  padding: 2px;
+  margin: auto;
+  width: 70%;
+  background-color: whitesmoke;
+  box-shadow: 5px 2px 6px -1px;
+}
+
+.resume-certification-addbtn {
+  border: none;
+  align-items: center;
+}
+
+.addbtn-certification {
+  padding: 2px;
+  margin: auto;
+  width: 68%;
+  background-color: whitesmoke;
+  box-shadow: 5px 2px 6px -1px;
+}
+
+.personalinsert {
+  padding: 2px;
+  margin: auto;
+  width: 70%;
+  background-color: whitesmoke;
+  box-shadow: 5px 2px 6px -1px;
+  margin-top: 6%;
+}
+
+.resume-personal-addbtn {
+  border: none;
+  align-items: center;
+}
+
+.addbtn-bank {
+  padding: 2px;
+  margin: auto;
+  width: 68%;
+  background-color: whitesmoke;
+  box-shadow: 4px 1px 6px -1px;
+}
+
+.resume-bank-addbtn {
+  border: none;
+  align-items: center;
+}
+
+.job-application-body input {
+  width: auto !important;
+}
+
+/* ==============================================Custom css for custom select tag made by  Rana and Akash================================ */
+
+.designation-title {
+  /* position: absolute; */
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.job-program-list {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.job-session-list {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.job-subject-list {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.custom-select-div {
+  z-index: 5000;
+  position: relative;
+  width: 100%;
+}
+
+.designation-title li {
+  border: 2px solid whitesmoke;
+  padding: 3px 8px;
+}
+
+.job-program-list li {
+  border: 2px solid whitesmoke;
+  padding: 3px 8px;
+}
+
+.job-session-list li {
+  border: 2px solid whitesmoke;
+  padding: 3px 8px;
+}
+
+.job-subject-list li {
+  border: 2px solid whitesmoke;
+  padding: 3px 8px;
+}
+
+.jobfacultytable {
+  box-shadow: 0px 0px 4px 1px;
+}
+
+#performa-creation-div {
+  padding-top: 5%;
+}
+
+.resume-search-div {
+  margin-top: 10%;
+  padding: 10%;
+}
+
+a {
+  cursor: pointer;
+}
+
+#address-value {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+#temporary-address-value {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+.fitIn {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.icon-container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.loader {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  animation: around 5.4s infinite;
+}
+
+@keyframes around {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader::after,
+.loader::before {
+  content: "";
+  background: white;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-width: 2px;
+  border-color: #333 #333 transparent transparent;
+  border-style: solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  animation: around 0.7s ease-in-out infinite;
+}
+
+.loader::after {
+  animation: around 0.7s ease-in-out 0.1s infinite;
+  background: transparent;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.blink {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  transition: 0.6;
+}
+
+.switch {
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  position: relative;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #475569!important;
+  border-radius: 40px;
+  cursor: pointer;
+  height: 34px;
+  width: 61px
+}
+
+.toggle-thumb:before {
+  content: "";
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 50%;
+  background-color: #E2E8F0;
+  transition: .4s all ease;
+}
+
+.checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.checkbox:checked + .toggle-thumb:before {
+  transform: translateX(26px);
+}
