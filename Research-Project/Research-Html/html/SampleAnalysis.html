@@ -39,68 +39,66 @@
                     <img src="../images/dashboard.png" class="ps-3 pe-2 sidebar-icon"> Dashboard
                 </li>
             </a>
-             <!-- research -->
-             <a href="../html/research.html" class="offset-list-item-link" data-toggle="collapse" data-target="#collapse" aria-expanded="true">
-                <li>
-                     <img src="../images/Research.png" class="ps-3 pe-2 sidebar-icon">Research    
-                </li>
-            </a>
-            <!-- drop downlist for research -->
-            <div class="collapse" id="collapse">
-                <ul class="nav flex-column ml-2">
-                    <a class="offset-list-item-link" href="../html/research-journal.html">
-                        <li class="nav-item">
-                            <img src="../images/Research.png" class="ps-3 pe-2 icon">
-                            Research Journal Paper
-                        </li>
-                    </a>
-                    <a class="offset-list-item-link" href="../html/book-publication-main.html">
-                        <li class="nav-item">
-                            <img src="../images/book-publication.png" class="ps-3 pe-2 icon">
-                            Book Publications
-                        </li>
-                    </a>
+            <!-- research -->
+            <li data-toggle="collapse" data-target="#collapse" aria-expanded="true">
+                <a class="offset-list-item-link">
+                    <img src="../images/Research.png" class="ps-3 pe-2 sidebar-icon">Research
+                </a>
+                <div class="collapse" id="collapse">
+                    <ul class="nav flex-column ml-2">
+                        <a class="offset-list-item-link" href="../html/research-journal.html">
+                            <li class="nav-item">
+                                <img src="../images/Research.png" class="ps-3 pe-2 icon">
+                                Research Journal Paper
+                            </li>
+                        </a>
+                        <a class="offset-list-item-link" href="../html/book-publication-main.html">
+                            <li class="nav-item">
+                                <img src="../images/book-publication.png" class="ps-3 pe-2 icon">
+                                Book Publications
+                            </li>
+                        </a>
 
 
-                    <a class="offset-list-item-link" href="../html/conference-publication.html">
-                        <li class="nav-item">
-                            <img src="../images/conference.png" class="ps-3 pe-2 icon">
-                            Conference Publications
-                        </li>
-                    </a>
+                        <a class="offset-list-item-link" href="../html/conference-publication.html">
+                            <li class="nav-item">
+                                <img src="../images/conference.png" class="ps-3 pe-2 icon">
+                                Conference Publications
+                            </li>
+                        </a>
 
 
-                    <a class="offset-list-item-link" href="../html/patent-submission.html">
-                        <li class="nav-item">
-                            <img src="../images/submission-grant.png" class="ps-3 pe-2 icon">
-                            Patent Submissions and Grant
-                        </li>
-                    </a>
+                        <a class="offset-list-item-link" href="../html/patent-submission.html">
+                            <li class="nav-item">
+                                <img src="../images/submission-grant.png" class="ps-3 pe-2 icon">
+                                Patent Submissions and Grant
+                            </li>
+                        </a>
 
-                    <a class="offset-list-item-link" href="../html/research-project.html">
-                        <li class="nav-item">
-                            <img src="../images/consultancy.png" class="ps-3 pe-2 icon">
-                            Research Project, Consultancy
-                        </li>
-                    </a>
+                        <a class="offset-list-item-link" href="../html/research-project.html">
+                            <li class="nav-item">
+                                <img src="../images/consultancy.png" class="ps-3 pe-2 icon">
+                                Research Project, Consultancy
+                            </li>
+                        </a>
 
-                    <a class="offset-list-item-link" href="../html/research-seminar.html">
-                        <li class="nav-item">
-                            <img src="../images/meeting.png" class="ps-3 pe-2 icon">
-                            Research Seminars at NMIMS
-                        </li>
-                    </a>
+                        <a class="offset-list-item-link" href="../html/research-seminar.html">
+                            <li class="nav-item">
+                                <img src="../images/meeting.png" class="ps-3 pe-2 icon">
+                                Research Seminars at NMIMS
+                            </li>
+                        </a>
 
-                    <a class="offset-list-item-link" href="../html/case-study.html">
-                        <li class="nav-item">
-                            <img src="../images/study.png" class="ps-3 pe-2 icon">
-                            Case Study
-                        </li>
-                    </a>
+                        <a class="offset-list-item-link" href="../html/case-study.html">
+                            <li class="nav-item">
+                                <img src="../images/study.png" class="ps-3 pe-2 icon">
+                                Case Study
+                            </li>
+                        </a>
 
-                </ul>
-            </div>
-            <!-- research close -->
+                    </ul>
+                </div>
+            </li>
             <a href="../html/teaching-excellance.html" class="offset-list-item-link">
                 <li>
                     <img src="../images/excellence.png" class="ps-3 pe-2 sidebar-icon">Teaching Excellence
@@ -206,27 +204,94 @@
         </nav>
     </header>
     <main class="main" id="mainContent">
-        <div class="base-section coustom-section mt-4">
-            <h3 class="text-center mb-5" style="color:green">Sample Analysis</h3>
-
-            <div class="row">
-                <div>
-                    <div>
-                        <canvas id="barChartID"></canvas>
+        <div class="main-content">
+            <div class="card ">
+                    <select id="schoolDataAnalysis" >
+                        <span class=" table-card-header text-uppercase d-flex align-items-center justify-content-between">
+                        <option> All School</option>
+                        <option id="nmimsId">Nmims</option>
+                        <option id="svkmId">Svkm</option>
+                        </span>
+                    </select>  
+            </div>        
+            <div class="row justify-content-between">
+                <div class="col-xl-6 card bg-white">
+                    <div class="col-xl-6">Total Application: 2861</div>
+                    <hr class="w-100">
+                    <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 p-4">
+                        <div class=" bg-white text-center  d-flex  justify-content-center align-items-center">
+                            <canvas id="pieChartID"></canvas>
+                        </div>
                     </div>
                 </div>
-
-
+                <div class="col-xl-6 card bg-white">
+                    <div class="card-header border border-primary "> ABDC Indexed Publications </div>
+                    <hr class="w-100">
+                    <div class="col-xl-12 col-lg-4 col-md-6 col-sm-12 p-4">
+                        <div class=" bg-white text-center  d-flex  justify-content-center align-items-center">
+                            <canvas id="myBarChart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>
     <script src="../js/barChart.js"></script>
+    <script>
+        // Pie chart
+        var ctx = document.getElementById('pieChartID').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'pie',
+            options: {
+                legend: {
+                    display: true
+                },
+                title: {
+                    display: true,
+                    text: 'Pie Chart using ChartJS library'
+                }
+            },
+            data: {
+                labels: ["C++", "Java", "Blockchain", "PHP", "Python", "HTML"],
+                datasets: [{
+                    label: "Technology Learned by Students",
+                    backgroundColor: ["#FF0000", "#0000FF",
+                        "#00FFFF", "#FFA500", "#FFA500", "#FF0000"
+                    ],
+                    data: [234, 356, 819, 732, 213, 542]
+                }]
+            }
+        });
+
+        // Bar chart 
+  var ctx2 = document.getElementById('myBarChart').getContext('2d');
+  var myChart2 = new Chart(ctx2, {
+      type: 'bar',
+      options: {
+          legend: { display: true },
+          indexAxis: 'x',
+          title: {
+              display: true,
+              text: 'Bar Chart using ChartJS library'
+          }
+      },
+      data: {
+          labels: ["2019", "2020", "2021", "2022"],
+          datasets: [
+              {
+                  label: "ABDC Indexed Publications",
+                  backgroundColor: ["#0047ab", "#0047ab",
+                      "#0047ab", "#0047ab"],
+                  data: [30, 65, 75, 119]
+              }
+          ]
+      }
+  }); 
+    </script>
 </body>
 
 </html>
